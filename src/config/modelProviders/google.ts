@@ -1,3 +1,10 @@
+/*
+ * @Author: zengzhe
+ * @Date: 2024-04-01 09:03:45
+ * @LastEditors: zengzhe
+ * @LastEditTime: 2024-04-01 09:05:51
+ * @Description:
+ */
 import { ModelProviderCard } from '@/types/llm';
 
 const Google: ModelProviderCard = {
@@ -75,6 +82,7 @@ const Google: ModelProviderCard = {
       maxOutput: 8192,
       tokens: 1_056_768,
       vision: true,
+      hidden: true,
     },
     {
       description: 'The most capable model for highly complex tasks',
@@ -82,6 +90,7 @@ const Google: ModelProviderCard = {
       id: 'gemini-ultra',
       maxOutput: 2048,
       tokens: 32_768,
+      hidden: true,
     },
   ],
   id: 'google',
