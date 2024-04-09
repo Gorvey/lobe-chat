@@ -2,7 +2,7 @@
  * @Author: zengzhe
  * @Date: 2024-04-01 09:03:45
  * @LastEditors: zengzhe
- * @LastEditTime: 2024-04-01 09:05:51
+ * @LastEditTime: 2024-04-09 16:00:58
  * @Description:
  */
 import { ModelProviderCard } from '@/types/llm';
@@ -78,7 +78,7 @@ const Google: ModelProviderCard = {
     {
       description: 'Mid-size multimodal model that supports up to 1 million tokens',
       displayName: 'Gemini 1.5 Pro',
-      hidden: true,
+      // hidden: true,
       id: 'gemini-1.5-pro-latest',
       maxOutput: 8192,
       tokens: 1_056_768,
